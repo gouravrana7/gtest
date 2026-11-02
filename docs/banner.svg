@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260"
-     role="img" aria-label="gtest — what a green pipeline hides">
+     role="img" aria-label="gtest — know what your tests actually prove">
   <title>gtest</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -20,7 +20,7 @@
           letter-spacing="-1.5"><tspan fill="#e0a44b">/</tspan>gtest</text>
 
     <text x="62" y="152" font-size="15" fill="#94a1b4">
-      what a green pipeline hides
+      know what your tests actually prove
     </text>
 
     <g font-size="13.5">

@@ -2,7 +2,7 @@
 
 <img src="docs/banner.svg" alt="gtest" width="820">
 
-**What a green pipeline hides.**
+**Know what your tests actually prove.**
 
 [![Tests](https://img.shields.io/badge/tests-1834_statements-1f7a63?style=flat-square)](#tests)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-1f7a63?style=flat-square)](#tests)
