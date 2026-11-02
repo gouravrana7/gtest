@@ -13,12 +13,23 @@
 *a kind of test you have none of · a test that cannot fail · an `it.only` silencing its file ·
 a fake backend that passes a dead route · an assertion that proves nothing*
 
-[Why](#green-does-not-mean-tested) · [See it](#see-it) · [Install](#thirty-seconds-to-a-verdict) · [What it finds](#what-it-finds) · [Languages](#languages) · [Design](#design)
+[See it](#see-it) · [Why](#green-does-not-mean-tested) · [Install](#thirty-seconds-to-a-verdict) · [What it finds](#what-it-finds) · [Languages](#languages) · [Design](#design)
 
 </div>
 
 A Claude Code plugin for developers, SDETs and QA. `/gtest` scans a repo and
 draws **one diagram in the terminal**.
+
+## See it
+
+<img src="docs/demo.svg" alt="gtest output on a sample repository" width="820">
+
+That is a real run on a sample repo — `docs/make_demo.py` turns the tool's own
+text output into the picture, so it cannot drift from what the tool does.
+
+In one screen: three kinds of test this repo should have and does not, an
+`it.only` silencing its file, a skip with no reason, two ways the faked
+backend cannot fail, and five tests that are green and empty.
 
 ## Green does not mean tested
 
@@ -55,17 +66,6 @@ came back. It does not prove it is right.
 
 **None of these show up in a coverage report.** Every one of them shows up
 here, in the first screen, with the reason spelled out.
-
-## See it
-
-<img src="docs/demo.svg" alt="gtest output on a sample repository" width="820">
-
-That is a real run on a sample repo — `docs/make_demo.py` turns the tool's own
-text output into the picture, so it cannot drift from what the tool does.
-
-In one screen: three kinds of test this repo should have and does not, an
-`it.only` silencing its file, a skip with no reason, two ways the faked
-backend cannot fail, and five tests that are green and empty.
 
 ## Thirty seconds to a verdict
 
