@@ -1,0 +1,21 @@
+{
+  "name": "gtest",
+  "description": "Sweeps a repo's tests: which code they miss, which kinds of test are absent, and which tests disagree with themselves. Runs the repo's own tooling and never starts a test suite without asking.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Gourav Rana",
+    "url": "https://github.com/gouravrana7"
+  },
+  "homepage": "https://github.com/gouravrana7/gtest",
+  "repository": "https://github.com/gouravrana7/gtest",
+  "license": "MIT",
+  "keywords": [
+    "tests",
+    "coverage",
+    "flaky",
+    "pytest",
+    "vitest",
+    "playwright"
+  ],
+  "category": "testing"
+}

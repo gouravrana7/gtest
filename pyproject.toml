@@ -1,0 +1,29 @@
+[project]
+name = "gtest"
+version = "1.1.0"
+description = "Claude Code plugin: report which code the tests miss, which test kinds are absent, and which tests are flaky"
+requires-python = ">=3.10"
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-cov>=5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["skills/coverage-gaps"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+# A script's self_check() is test code that happens to live beside the code it
+# tests. The smoke suite runs each one as a subprocess, so it is exercised, it
+# just is not product code worth measuring.
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "def self_check",
+    "def _xml",
+]

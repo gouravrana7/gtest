@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="678" height="1020" viewBox="0 0 678 1020" role="img" aria-label="gtest terminal output">
+  <title>gtest output on a sample repository</title>
+  <rect width="678" height="1020" rx="8" fill="#141922"/>
+  <rect width="678" height="38" rx="8" fill="#1d2430"/>
+  <rect y="30" width="678" height="8" fill="#141922"/>
+  <circle cx="24" cy="22" r="5.5" fill="#e8776a"/><circle cx="44" cy="22" r="5.5" fill="#e0a44b"/><circle cx="64" cy="22" r="5.5" fill="#52c7a6"/>
+  <text x="86" y="26" fill="#7c8798" font-family="ui-monospace,Menlo,monospace" font-size="11.5">gtest</text>
+  <g font-family="IBM Plex Mono,ui-monospace,SF Mono,Menlo,Consolas,monospace" font-size="12.5">
+    <text x="22" y="46" fill="#f2f5f9" xml:space="preserve">/gtest   6 tests  |  2 mock issues  |  1 focused  |  2 never run  |  5 prove nothing</text>
+    <text x="22" y="64" fill="#d7dce4" xml:space="preserve">         1 cannot fail</text>
+    <text x="22" y="100" fill="#f2f5f9" xml:space="preserve">TEST KINDS                             tests  files</text>
+    <text x="22" y="118" fill="#d7dce4" xml:space="preserve"> unit           ██████████████████████     4      1</text>
+    <text x="22" y="136" fill="#e8776a" xml:space="preserve"> integration    ······················     0      0   &lt;- gap</text>
+    <text x="22" y="154" fill="#e8776a" xml:space="preserve"> smoke          ······················     0      0   &lt;- gap</text>
+    <text x="22" y="172" fill="#d7dce4" xml:space="preserve"> e2e            ███████████···········     2      1</text>
+    <text x="22" y="190" fill="#d7dce4" xml:space="preserve"> performance    ······················     0      0   n/a</text>
+    <text x="22" y="208" fill="#e8776a" xml:space="preserve"> contract       ······················     0      0   &lt;- gap</text>
+    <text x="22" y="244" fill="#e8776a" xml:space="preserve"> No smoke tests, and this repo wants them:</text>
+    <text x="22" y="262" fill="#d7dce4" xml:space="preserve">   it ships something that has to start up at all</text>
+    <text x="22" y="280" fill="#7c8798" xml:space="preserve">   evidence: an installed entry point</text>
+    <text x="22" y="298" fill="#e8776a" xml:space="preserve"> No contract tests, and this repo wants them:</text>
+    <text x="22" y="316" fill="#d7dce4" xml:space="preserve">   it depends on an API whose shape is faked in tests, and a handwritten…</text>
+    <text x="22" y="334" fill="#7c8798" xml:space="preserve">   evidence: msw, openapi.json</text>
+    <text x="22" y="352" fill="#e8776a" xml:space="preserve"> No integration tests, and this repo wants them:</text>
+    <text x="22" y="370" fill="#d7dce4" xml:space="preserve">   it talks to something outside its own process</text>
+    <text x="22" y="388" fill="#7c8798" xml:space="preserve">   evidence: sqlalchemy</text>
+    <text x="22" y="424" fill="#7c8798" xml:space="preserve"> Not expected here, so not counted against it: performance</text>
+    <text x="22" y="460" fill="#f2f5f9" xml:space="preserve">NEVER RUN  (1 focused, 1 skipped)</text>
+    <text x="22" y="478" fill="#e8776a" xml:space="preserve"> focused -- everything else in their file is silently idle:</text>
+    <text x="22" y="496" fill="#d7dce4" xml:space="preserve">   tests/e2e/checkout.spec.ts:1  completes a purchase</text>
+    <text x="22" y="514" fill="#d7dce4" xml:space="preserve"> skipped:</text>
+    <text x="22" y="532" fill="#d7dce4" xml:space="preserve">   test_refund_is_prorated                pytest.mark.skip, with no reason given</text>
+    <text x="22" y="568" fill="#f2f5f9" xml:space="preserve">FAKED BACKEND  (2 problems)</text>
+    <text x="22" y="586" fill="#d7dce4" xml:space="preserve"> unmatched requests pass      src/mocks/server.ts</text>
+    <text x="22" y="604" fill="#d7dce4" xml:space="preserve">   onUnhandledRequest is bypass, not &#x27;error&#x27; -- a request no handler match…</text>
+    <text x="22" y="622" fill="#d7dce4" xml:space="preserve"> handlers leak between tests  src/mocks/server.ts</text>
+    <text x="22" y="640" fill="#d7dce4" xml:space="preserve">   no resetHandlers() call -- a handler one test overrides with server.use…</text>
+    <text x="22" y="676" fill="#f2f5f9" xml:space="preserve">NOT REALLY TESTING  (5 green tests that prove nothing)</text>
+    <text x="22" y="694" fill="#d7dce4" xml:space="preserve"> proves too little    shows the cart</text>
+    <text x="22" y="712" fill="#d7dce4" xml:space="preserve">                       checks truthiness, not a value</text>
+    <text x="22" y="730" fill="#d7dce4" xml:space="preserve"> catches too much     test_rejects_negative</text>
+    <text x="22" y="748" fill="#d7dce4" xml:space="preserve">                       raises(Exception) with no match=</text>
+    <text x="22" y="766" fill="#d7dce4" xml:space="preserve"> drops the answer     test_total_is_computed</text>
+    <text x="22" y="784" fill="#d7dce4" xml:space="preserve">                       captures result from a call and never looks at it -- the as…</text>
+    <text x="22" y="802" fill="#d7dce4" xml:space="preserve"> proves too little    test_currency_is_supported</text>
+    <text x="22" y="820" fill="#d7dce4" xml:space="preserve">                       checks truthiness of a call&#x27;s result, not the result</text>
+    <text x="22" y="838" fill="#d7dce4" xml:space="preserve"> fixture nobody asks… unused_cart</text>
+    <text x="22" y="856" fill="#d7dce4" xml:space="preserve">                       a fixture no test in this file asks for</text>
+    <text x="22" y="892" fill="#f2f5f9" xml:space="preserve">NO EXPLICIT ASSERTION  (1 tests, 1 that cannot fail at all)</text>
+    <text x="22" y="910" fill="#d7dce4" xml:space="preserve"> tests/unit/test_checkout.py</text>
+    <text x="22" y="928" fill="#e8776a" xml:space="preserve">      cannot fail: test_total_is_computed</text>
+    <text x="22" y="964" fill="#f2f5f9" xml:space="preserve">WORST GAPS</text>
+    <text x="22" y="982" fill="#d7dce4" xml:space="preserve"> No gaps worth reporting.</text>
+  </g>
+</svg>

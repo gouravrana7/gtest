@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260"
+     role="img" aria-label="gtest — the tests your tests are missing">
+  <title>gtest</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171d27"/>
+      <stop offset="100%" stop-color="#11151c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" rx="12" fill="url(#bg)"/>
+  <rect width="900" height="40" rx="12" fill="#1d2430"/>
+  <rect y="32" width="900" height="8" fill="#171d27"/>
+  <circle cx="26" cy="23" r="5.5" fill="#e8776a"/>
+  <circle cx="46" cy="23" r="5.5" fill="#e0a44b"/>
+  <circle cx="66" cy="23" r="5.5" fill="#52c7a6"/>
+
+  <g font-family="IBM Plex Mono,ui-monospace,SF Mono,Menlo,Consolas,monospace">
+    <text x="60" y="118" font-size="56" font-weight="600" fill="#f2f5f9"
+          letter-spacing="-1.5"><tspan fill="#e0a44b">/</tspan>gtest</text>
+
+    <text x="62" y="152" font-size="15" fill="#94a1b4">
+      the tests your tests are missing
+    </text>
+
+    <g font-size="13.5">
+      <text x="62" y="196" fill="#7c8798">e2e</text>
+      <text x="140" y="196" fill="#2b3340">······················</text>
+      <text x="348" y="196" fill="#e8776a">0 tests</text>
+      <text x="428" y="196" fill="#e8776a">&lt;- gap</text>
+
+      <text x="62" y="218" fill="#7c8798">unit</text>
+      <text x="140" y="218" fill="#52c7a6">██████████████████████</text>
+      <text x="348" y="218" fill="#d7dce4">189 tests</text>
+
+      <text x="500" y="196" fill="#e8776a">1 focused</text>
+      <text x="610" y="196" fill="#7c8798">silences its whole file</text>
+      <text x="500" y="218" fill="#e0a44b">2 prove nothing</text>
+      <text x="650" y="218" fill="#7c8798">green, and empty</text>
+    </g>
+  </g>
+</svg>

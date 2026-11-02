@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gtest",
+  "description": "Test coverage, test-kind inventory and flaky detection for any repo, using the repo's own test tooling.",
+  "owner": {
+    "name": "Gourav Rana",
+    "url": "https://github.com/gouravrana7"
+  },
+  "plugins": [
+    {
+      "name": "gtest",
+      "description": "Report which code the tests miss, which kinds of test are missing entirely, and which tests are flaky.",
+      "source": "./",
+      "category": "testing"
+    }
+  ]
+}
