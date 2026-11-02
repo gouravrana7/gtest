@@ -13,6 +13,16 @@
 *a kind of test you have none of · a test that cannot fail · an `it.only` silencing its file ·
 a fake backend that passes a dead route · an assertion that proves nothing*
 
+![pytest](https://img.shields.io/badge/pytest-1d2430?style=flat-square&logo=pytest&logoColor=0A9EDC)
+![Playwright](https://img.shields.io/badge/Playwright-1d2430?style=flat-square&labelColor=2EAD33)
+![Vitest](https://img.shields.io/badge/Vitest-1d2430?style=flat-square&logo=vitest&logoColor=6E9F18)
+![Jest](https://img.shields.io/badge/Jest-1d2430?style=flat-square&logo=jest&logoColor=C21325)
+![Cypress](https://img.shields.io/badge/Cypress-1d2430?style=flat-square&logo=cypress&logoColor=69D3A7)
+![Go](https://img.shields.io/badge/go%20test-1d2430?style=flat-square&logo=go&logoColor=00ADD8)
+![MSW](https://img.shields.io/badge/MSW-1d2430?style=flat-square&logo=mockserviceworker&logoColor=FF6A33)
+![TypeScript](https://img.shields.io/badge/TypeScript-1d2430?style=flat-square&logo=typescript&logoColor=3178C6)
+![Python](https://img.shields.io/badge/Python-1d2430?style=flat-square&logo=python&logoColor=FFD43B)
+
 [See it](#see-it) · [Why](#green-does-not-mean-tested) · [Install](#thirty-seconds-to-a-verdict) · [What it finds](#what-it-finds) · [Languages](#languages) · [Design](#design)
 
 </div>
